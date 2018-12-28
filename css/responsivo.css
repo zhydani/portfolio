@@ -1,0 +1,160 @@
+@media only screen and (min-width: 1434px){
+	.sobre{
+		margin-top: 33.8%;
+		
+	}
+}
+
+@media only screen and (min-width: 1674px) {
+	.sobre{
+		margin-top: 29%;
+		
+	}
+}
+
+@media only screen and (min-width: 1914px) {
+	.sobre{
+		margin-top: 25.4%;
+		
+	}
+}
+
+
+
+
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.sobre{
+	margin-top: 46.8%;
+	
+}
+
+.sobre-conteudo{
+	margin-left: -100px;
+}
+
+.sobre h2{
+	
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5;
+	padding: 0 120px;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.footer .btn{
+	color: #FFF;
+	font-size: 12px;
+}
+
+.hover, .text, .hover-2{
+	display: none;
+}
+
+
+
+
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+
+
+	.header {
+		top: 0;
+		width: 100%;
+	}
+	
+	.header_menu {
+		text-align: right;
+		margin-top: -35px;
+	}
+
+	.introducao {
+		margin-top: 40px;
+		padding-top: 40px;
+	}
+	
+	.introducao h1 {
+		font-size: 1.8rem;
+		margin-left: -10px;
+	}
+
+	.sobre{
+		padding: 35px 150px 60px 200px;
+		margin-top: 94%;
+		
+	}
+
+	.lista{
+		border-right: none;
+		border-bottom: 1px solid #E6ECF8;
+		
+	}
+
+	.habilidades-lista .lista2{
+		border-right: none;
+		border-bottom: 1px solid #E6ECF8;
+		padding-bottom: 65px;
+		padding-left: 10px;
+	}
+
+	.habilidades-lista .lista3{
+		padding-left: 10px;
+	}
+
+
+	
+
+
+	.sobre-conteudo{
+		margin-left: -160px;
+	}
+	
+	.sobre h2{
+		
+		font-family: 'Quicksand', sans-serif;
+		line-height: 1.5;
+		margin-left: -7px;
+		padding: 0 5px;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+
+	.imagem-trabalhos-2 img{
+		border-radius: 16px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		margin-bottom: 100px;
+		margin-left: 0;
+	}
+	
+	.hover, .text, .hover-2{
+		display: none;
+	}
+
+	.footer h1{
+		font-family: 'eurostile lt', monospace;
+		font-weight: bold;
+		color: #FFF;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: -10px;
+	}
+	
+	.footer h2{
+		font-size: 14px;
+		padding: 0 20px;
+	}
+	
+	.botao{
+		padding-left: 50px;
+		margin-top: -30px;
+	}
+
+	
+
+} /* Final do estilo para smartphone 
