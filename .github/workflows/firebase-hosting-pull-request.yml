@@ -12,6 +12,6 @@ jobs:
       # - run: npm ci
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_50191 }}'
+          repoToken: '${{ env.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ env.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_50191 }}'
           projectId: portfolio-50191
