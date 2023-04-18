@@ -5,13 +5,13 @@ name: Deploy to Firebase Hosting on PR
 'on': pull_request_target
 jobs:
   build_and_preview:
-    # if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       # - run: npm ci
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ env.GITHUB_TOKEN }}'
+          # repoToken: '${{ env.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ env.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_50191 }}'
           projectId: portfolio-50191
